@@ -302,7 +302,7 @@ error variableInfo name =
 
 details : List String
 details =
-    [ "You should either use this value somewhere, or remove it at the location I pointed at."
+    [ Debug.todo "wtf"
     ]
 
 
