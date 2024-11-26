@@ -647,7 +647,7 @@ registerModuleAlias ((Node range { exposingList, moduleName }) as node) moduleAl
                 { originalNameOfTheImport = getModuleName <| Node.value moduleName
                 , exposesSomething = exposingList /= Nothing
                 }
-        , typeName = "Module alias"
+        , typeName = Debug.log "moop" "Module alias"
         , under = Node.range moduleAlias
         , rangeToRemove =
             case exposingList of
